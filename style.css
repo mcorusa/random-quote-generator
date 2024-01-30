@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to left top, blue, pink, blue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.container{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, .3);
+    background-color: rgba(255, 255, 255, 0.2);
+    width:90%;
+    text-align: center;
+}
+.author{
+    font-style: italic;
+    font-weight: 400;
+    margin: 10px;
+}
+.quote{
+    padding:5px 20px;
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, .3);
+    padding: 10px 30px;
+    margin: 20px;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(90, 41, 158);
+    transition: all 300ms ease-in-out;
+}
